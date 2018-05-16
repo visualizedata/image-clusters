@@ -1,0 +1,99 @@
+.header {
+  text-align:left;
+  width:20%;
+  padding:5%;
+  font-weight:400;
+}
+
+#featured img{
+  width:200px;
+  max-height:100px;
+}
+
+.node image {
+  filter:grayscale(100%);
+}
+
+.content {
+  background-color:black;
+  color:white;
+}
+
+#all{
+  width:100%;
+  margin-left:20%;
+}
+
+em {
+  font-style:normal;
+  font-weight:600;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:0.8em;
+}
+
+body {
+  font-family: "Source Code Pro", Consolas, monaco, monospace; 
+  margin: 0; 
+  width:100%;
+}
+
+path.link {
+  fill: none;
+  stroke-width: 1px;
+}
+
+.nodetext {
+  font-size:0.8em;
+}
+
+.node:not(:hover) .nodetext {
+  display: none;
+}
+
+.node:not(:hover) .nodeimage{
+  display: none;
+}
+
+h4 { 
+  font-size:1em; 
+  text-transform: uppercase; 
+  font-weight: bolder;
+  padding:0.5%;
+  margin:0;
+  width:100%;
+}
+
+
+
+h1 { 
+  font-size: 2.5em; 
+  margin: 10px 0; 
+  text-transform: uppercase; 
+  font-weight: normal;
+}
+
+h2, h3 { 
+  font-size: 1.5em; 
+  line-height:1em;
+  font-weight: normal;}
+
+header {
+  padding: 0%;
+  position: absolute; 
+  top: 0; 
+  left: 0;}
+
+a:link { 
+  color: #EE3124; 
+  text-decoration: none;}
+
+a:visited { 
+  color: #EE3124; }
+
+a:hover { 
+  color: #AB9A84; 
+  text-decoration: underline;}
+
+a:active { 
+  color: #EE3124; }
